@@ -100,8 +100,13 @@ button:hover{
 }
 .logo{
     display:flex;
+    justify-content:center;
     align-items:center;
-    width:50px;
+    margin-bottom: 20px;
+}
+.logo img {
+    max-width: 100%;
+    height: auto;
 }
 
 @media (max-width:600px){
@@ -129,7 +134,10 @@ button:hover{
 <section class="hero">
 
 <div class="container">
-<img class="logo" src="imagenes/CIVARO_emblem_light.png" alt="Logo">
+    
+<div class ="logo">
+    <img src="imagenes/CIVARO_emblem_light.png" alt="Logo">
+</div>
 <br><h1>Encuentra tu coche ideal</h1>
 
 <p>Déjanos tus datos y te enviaremos las mejores ofertas.</p>
